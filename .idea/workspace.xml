@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315f9c4a-d8c1-494e-abc9-dd031ec60e15" name="Changes" comment="commit 2nd june afternoon" />
+    <list default="true" id="315f9c4a-d8c1-494e-abc9-dd031ec60e15" name="Changes" comment="commit 2nd june afternoon again">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748794991559</updated>
       <workItem from="1748794992469" duration="301000" />
-      <workItem from="1748795313328" duration="8339000" />
+      <workItem from="1748795313328" duration="14399000" />
     </task>
     <task id="LOCAL-00001" summary="first commit just checking">
       <option name="closed" value="true" />
@@ -107,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748844923335</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit 2nd june afternoon again">
+      <option name="closed" value="true" />
+      <created>1748845152812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748845152812</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +184,7 @@
     <MESSAGE value="first commit just checking" />
     <MESSAGE value="commit on 2nd june morning" />
     <MESSAGE value="commit 2nd june afternoon" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 2nd june afternoon" />
+    <MESSAGE value="commit 2nd june afternoon again" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 2nd june afternoon again" />
   </component>
 </project>
