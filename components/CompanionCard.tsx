@@ -37,7 +37,7 @@ CompanionComponentProps) => {
                     width={13.5}
                     height={13.5}
                 />
-                <p className="texsm">{duration} minutes</p>
+                <p className="text-sm">{duration} minutes</p>
             </div>
             <Link href={`/companion/${id}`} className="w-full">
                 <button className="btn-primary w-full justify-center">

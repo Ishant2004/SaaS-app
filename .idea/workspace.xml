@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315f9c4a-d8c1-494e-abc9-dd031ec60e15" name="Changes" comment="commit 3nd june home page UI done">
-      <change afterPath="$PROJECT_DIR$/app/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/actions/companion.actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/supabase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="315f9c4a-d8c1-494e-abc9-dd031ec60e15" name="Changes" comment="commit 4th june connection and working of companionForm to database done">
+      <change afterPath="$PROJECT_DIR$/components/SearchInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SubjectFilter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/vapi.sdk.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/companions/new/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/new/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sign-in/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/subscription/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/subscription/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/companions/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CompanionCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actions/companion.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/companion.actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -65,6 +61,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.supabase.ts.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;new-branch&quot;,
@@ -90,8 +87,11 @@
       <recent name="D:\saas" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Next.js: server-side">
+  <component name="RunManager" selected="Node.js.supabase.ts">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="supabase.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/supabase.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/lib">
       <method v="2" />
     </configuration>
     <configuration name="Next.js: server-side" type="js.build_tools.npm">
@@ -104,6 +104,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.supabase.ts" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -122,6 +127,7 @@
       <workItem from="1748794992469" duration="301000" />
       <workItem from="1748795313328" duration="30247000" />
       <workItem from="1748945701615" duration="1042000" />
+      <workItem from="1749099441449" duration="11837000" />
     </task>
     <task id="LOCAL-00001" summary="first commit just checking">
       <option name="closed" value="true" />
@@ -179,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748936085625</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit 4th june connection and working of companionForm to database done">
+      <option name="closed" value="true" />
+      <created>1749039131652</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749039131652</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +263,7 @@
     <MESSAGE value="commit 2nd june evening 5 pm" />
     <MESSAGE value="commit 2nd june evning navbar" />
     <MESSAGE value="commit 3nd june home page UI done" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 3nd june home page UI done" />
+    <MESSAGE value="commit 4th june connection and working of companionForm to database done" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 4th june connection and working of companionForm to database done" />
   </component>
 </project>
