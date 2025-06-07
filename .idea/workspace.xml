@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315f9c4a-d8c1-494e-abc9-dd031ec60e15" name="Changes" comment="commit 4th june connection and working of companionForm to database done">
-      <change afterPath="$PROJECT_DIR$/components/SearchInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SubjectFilter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/vapi.sdk.ts" afterDir="false" />
+    <list default="true" id="315f9c4a-d8c1-494e-abc9-dd031ec60e15" name="Changes" comment="commit 5th june evening companionList page is done started vapi integration">
+      <change afterPath="$PROJECT_DIR$/components/CompanionComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/companions/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CompanionCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CompanionCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/companions/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/companions/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/actions/companion.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/companion.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vapi.sdk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vapi.sdk.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -127,7 +129,9 @@
       <workItem from="1748794992469" duration="301000" />
       <workItem from="1748795313328" duration="30247000" />
       <workItem from="1748945701615" duration="1042000" />
-      <workItem from="1749099441449" duration="11837000" />
+      <workItem from="1749099441449" duration="24251000" />
+      <workItem from="1749272339286" duration="9709000" />
+      <workItem from="1749304507249" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="first commit just checking">
       <option name="closed" value="true" />
@@ -193,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749039131652</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit 5th june evening companionList page is done started vapi integration">
+      <option name="closed" value="true" />
+      <created>1749127388840</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749127388840</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +276,7 @@
     <MESSAGE value="commit 2nd june evning navbar" />
     <MESSAGE value="commit 3nd june home page UI done" />
     <MESSAGE value="commit 4th june connection and working of companionForm to database done" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 4th june connection and working of companionForm to database done" />
+    <MESSAGE value="commit 5th june evening companionList page is done started vapi integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 5th june evening companionList page is done started vapi integration" />
   </component>
 </project>
