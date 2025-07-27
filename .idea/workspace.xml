@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315f9c4a-d8c1-494e-abc9-dd031ec60e15" name="Changes" comment="last commit added typescript ignoreBuildErrors to true in nextdotconfigdotts" />
+    <list default="true" id="315f9c4a-d8c1-494e-abc9-dd031ec60e15" name="Changes" comment="commit added eslint ignoreDuringBuilds">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +105,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>
@@ -122,7 +124,12 @@
       <workItem from="1749304507249" duration="3170000" />
       <workItem from="1749311657721" duration="5069000" />
       <workItem from="1749386112663" duration="6352000" />
-      <workItem from="1749394161744" duration="1689000" />
+      <workItem from="1749394161744" duration="2156000" />
+      <workItem from="1749400813465" duration="4500000" />
+      <workItem from="1749448919337" duration="94000" />
+      <workItem from="1749979974804" duration="441000" />
+      <workItem from="1750231589828" duration="178000" />
+      <workItem from="1753375370565" duration="1933000" />
     </task>
     <task id="LOCAL-00001" summary="first commit just checking">
       <option name="closed" value="true" />
@@ -220,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749395703501</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit added eslint ignoreDuringBuilds">
+      <option name="closed" value="true" />
+      <created>1749396007631</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1749396007631</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +310,7 @@
     <MESSAGE value="commit 7th evening completed the companion page and integrated vapi.ai to talk and now started with companion history" />
     <MESSAGE value="commit 8th evening added my-journey page and the clerk subscription plan features" />
     <MESSAGE value="last commit added typescript ignoreBuildErrors to true in nextdotconfigdotts" />
-    <option name="LAST_COMMIT_MESSAGE" value="last commit added typescript ignoreBuildErrors to true in nextdotconfigdotts" />
+    <MESSAGE value="commit added eslint ignoreDuringBuilds" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit added eslint ignoreDuringBuilds" />
   </component>
 </project>
