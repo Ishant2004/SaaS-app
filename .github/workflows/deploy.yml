@@ -20,7 +20,7 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.EC2_SSH_KEY }}
 
-      - name: Copy files to EC2
+      - name: Copy files to EC2 (include .env.local)
         run: |
           rsync -avz --exclude=node_modules --exclude=.next --exclude=.git -e "ssh -o StrictHostKeyChecking=no" ./ ubuntu@ec2-65-2-136-130.ap-south-1.compute.amazonaws.com:/home/ubuntu/saas
 
@@ -31,5 +31,5 @@ jobs:
             docker build -t saas-app .
             docker stop saas-app || true
             docker rm saas-app || true
-            docker run -d --name saas-app -p 80:3000 saas-app
+            docker run -d --name saas-app --env-file .env.local -p 80:3000 saas-app
           EOF
