@@ -31,5 +31,5 @@ jobs:
             docker build -t saas-app .
             docker stop saas-app || true
             docker rm saas-app || true
-            docker run -d --name saas-app --env-file .env.local -p 80:3000 saas-app
+            docker run -d --name saas-app --env-file .env.local -p 3000:3000 saas-app
           EOF
